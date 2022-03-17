@@ -1,5 +1,6 @@
-from numpy import sin, cos, arctan2, pi, array, radians, linalg, set_printoptions, sum
 import matplotlib.pyplot as plt
+from numpy import sin, cos, pi, array, linalg, set_printoptions
+
 from controller import Supervisor, Motor
 
 sup = Supervisor()
